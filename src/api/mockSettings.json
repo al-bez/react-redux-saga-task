@@ -1,0 +1,26 @@
+{
+  "language": "en",
+  "fontSize": 14,
+  "autoSave": false,
+  "autoSaveDelay": 1000,
+  "tabSize": 2,
+  "exclude": [],
+  "events": [
+    {
+      "trigger": "onPost",
+      "id": "1",
+      "stepsRunInParallel": false,
+      "steps": [
+        {
+          "action": "post",
+          "name": "first",
+          "parameters": {
+            "templateId": "2313",
+            "type": "repost",
+            "url": "https://someBlog.com/posts"
+          }
+        }
+      ]
+    }
+  ]
+}
